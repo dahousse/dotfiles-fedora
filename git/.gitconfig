@@ -1,0 +1,9 @@
+[user]
+	name = hasmi
+	email = dahousse@gmail.com
+[credential]
+	helper = store
+[safe]
+	directory = /home/hasmi/ansible-lab
+[cola]
+	startupmode = list
