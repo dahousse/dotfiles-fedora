@@ -62,3 +62,4 @@ setopt AUTO_CD
 fastfetch
 
 
+# test-fin-du-monde
