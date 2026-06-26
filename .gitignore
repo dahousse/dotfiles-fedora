@@ -1,0 +1,23 @@
+# Sécurité
+*.pem
+*.key
+*.env
+.env.*
+secrets/
+tokens/
+!scripts/
+
+# Système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local
+backups/
+*.bak
+*.orig
+
+# Logs
+*.log
