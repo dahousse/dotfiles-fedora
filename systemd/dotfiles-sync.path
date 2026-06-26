@@ -1,0 +1,11 @@
+[Unit]
+Description=Watch dotfiles for changes and sync
+
+[Path]
+PathModified=%h/dotfiles-fedora/zsh/.zshrc
+PathModified=%h/dotfiles-fedora/shell/.p10k.zsh
+PathModified=%h/dotfiles-fedora/git/.gitconfig
+Unit=dotfiles-sync.service
+
+[Install]
+WantedBy=default.target

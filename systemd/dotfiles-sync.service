@@ -1,0 +1,10 @@
+[Unit]
+Description=Dotfiles auto-sync service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/dotfiles-fedora/scripts/auto-sync.sh
+StandardOutput=append:%h/dotfiles-fedora/logs/systemd-sync.log
+StandardError=append:%h/dotfiles-fedora/logs/systemd-sync.log

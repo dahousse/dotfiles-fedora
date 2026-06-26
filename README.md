@@ -1,6 +1,6 @@
 # 🖥️ dotfiles-fedora
 
-> Mes dotfiles Fedora 44 — synchronisés automatiquement sur GitHub.
+> Mes dotfiles Fedora 44 — synchronisés automatiquement sur GitHub en **temps réel**.
 
 ## 📦 Structure
 
@@ -10,18 +10,29 @@
 ├── shell/.p10k.zsh       # → ~/.p10k.zsh (symlink)
 ├── zsh/.zshrc            # → ~/.zshrc (symlink)
 ├── install.sh            # Installe les symlinks sur un PC neuf
-├── scripts/auto-sync.sh  # Push auto vers GitHub (cron @hourly)
-├── scripts/setup-cron.sh # Ajoute le cron en 1 commande
-├── logs/                 # Logs du cron
+├── scripts/
+│   ├── auto-sync.sh      # Push vers GitHub (appelé par le watcher)
+│   ├── setup-watcher.sh  # Active le watcher en 1 commande
+│   └── setup-cron.sh     # Fallback cron si pas de systemd
+├── systemd/              # Units systemd --user du watcher
+│   ├── dotfiles-sync.service
+│   └── dotfiles-sync.path
+├── logs/                 # Logs de synchronisation
 └── backups/              # Backups des dotfiles originaux
 ```
 
 ## ⚙️ Comment ça marche
 
-1. Les dotfiles sont en **symlinks** vers ce repo
-2. Tu modifies `~/.zshrc` → tu modifies directement le repo
-3. **Cron toutes les heures** : `auto-sync.sh` commit + push vers GitHub
-4. **Pas d'action manuelle** — ça bosse tout seul
+### 🔥 Watcher temps réel (le Graal)
+
+1. **Symlinks** : `.zshrc` → `~/dotfiles-fedora/zsh/.zshrc` (modification directe dans le repo)
+2. **systemd path unit** surveille les 3 fichiers
+3. Dès que tu sauvegardes une modif → **commit + push automatique en < 2 secondes**
+4. Zéro action manuelle
+
+### 🛡️ Cron de sécurité (fallback)
+
+Une sauvegarde toutes les heures au cas où le watcher aurait raté un événement.
 
 ## 🚀 Restauration (PC neuf / après panne)
 
@@ -30,28 +41,36 @@
 git clone https://github.com/dahousse/dotfiles-fedora.git
 cd dotfiles-fedora
 
-# 2. Installer
+# 2. Installer les symlinks
 bash install.sh
 
-# 3. Activer le cron auto
-bash scripts/setup-cron.sh
+# 3. Activer le watcher temps réel (optionnel mais recommandé)
+bash scripts/setup-watcher.sh
 
-# 4. Source
+# 4. Recharger le shell
 source ~/.zshrc
 ```
 
 ## 🔄 Forcer un sync manuel
 
 ```bash
-cd ~/dotfiles-fedora && bash scripts/auto-sync.sh
+~/dotfiles-fedora/scripts/auto-sync.sh
 ```
 
-## 💾 Backup automatique
+## 💾 Niveaux de sauvegarde
 
-| Fréquence | Mécanisme |
-|:---|---|
-| Toutes les heures | Cron system → `scripts/auto-sync.sh` |
-| Au changement | Via symlink direct — modification en temps réel |
+| Niveau | Quoi | Déclencheur |
+|:---|---:|:---|
+| 🔥 Instantané | systemd path unit | Sauvegarde d'un fichier |
+| ⏱️ Horaire | Cron | Toutes les heures (sécurité) |
+| 🖐️ Manuel | `auto-sync.sh` | Quand tu veux |
+
+## 🧠 Pourquoi systemd plutôt qu'incron ?
+
+- **Zéro package** à installer (déjà dans Fedora)
+- **Pas de root** nécessaire (units --user)
+- **Pas de boucle** : git push ne modifie pas les dotfiles
+- **Lock implicite** : les appels sont sérialisés par systemd
 
 ---
 
