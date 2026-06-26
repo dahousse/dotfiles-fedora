@@ -1,0 +1,10 @@
+bare
+core
+core24
+fing-agent
+gnome-46-2404
+gtk-common-themes
+mesa-2404
+rpi-imager
+snapd
+usbmode-switch
