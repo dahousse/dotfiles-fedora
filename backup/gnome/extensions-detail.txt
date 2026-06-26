@@ -1,0 +1,86 @@
+dash-to-dock@micxgx.gmail.com
+  Nom: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Chemin: /home/hasmi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Auteur d’origine: micxgx@gmail.com
+  Version: 105
+  Activé: Oui
+  État: ACTIVE
+--- dash-to-dock@micxgx.gmail.com ---
+dash-to-dock@micxgx.gmail.com
+  Nom: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Chemin: /home/hasmi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Auteur d’origine: micxgx@gmail.com
+  Version: 105
+  Activé: Oui
+  État: ACTIVE
+--- docker@stickman_0x00.com ---
+docker@stickman_0x00.com
+  Nom: Docker
+  Description: Quick access to Docker and Docker Compose.
+  Chemin: /home/hasmi/.local/share/gnome-shell/extensions/docker@stickman_0x00.com
+  URL: https://gitlab.com/stickman_0x00/gnome_shell_extension_docker
+  Version: 47
+  Activé: Oui
+  État: ACTIVE
+--- docker-manager@omerfarukgungor ---
+docker-manager@omerfarukgungor
+  Nom: Docker Manager
+  Description: Manage Docker containers from the GNOME panel
+  Chemin: /home/hasmi/.local/share/gnome-shell/extensions/docker-manager@omerfarukgungor
+  URL: 
+  Version: 1
+  Activé: Oui
+  État: ACTIVE
+--- apps-menu@gnome-shell-extensions.gcampax.github.com ---
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Nom: Apps Menu
+  Description: Add a category-based menu for apps.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Chemin: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Activé: Oui
+  État: ACTIVE
+--- background-logo@fedorahosted.org ---
+background-logo@fedorahosted.org
+  Nom: Background Logo
+  Description: Overlay a tasteful logo on the background to enhance the user experience
+  Chemin: /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org
+  URL: https://forge.fedoraproject.org/workstation/background-logo-extension
+  Version: 50.1
+  Activé: Oui
+  État: ACTIVE
+--- launch-new-instance@gnome-shell-extensions.gcampax.github.com ---
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Nom: Launch New Instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Chemin: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Activé: Non
+  État: INITIALIZED
+--- places-menu@gnome-shell-extensions.gcampax.github.com ---
+places-menu@gnome-shell-extensions.gcampax.github.com
+  Nom: Places Status Indicator
+  Description: Add a menu for quickly navigating places in the system.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Chemin: /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Activé: Oui
+  État: ACTIVE
+--- window-list@gnome-shell-extensions.gcampax.github.com ---
+window-list@gnome-shell-extensions.gcampax.github.com
+  Nom: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Chemin: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Activé: Non
+  État: INITIALIZED
