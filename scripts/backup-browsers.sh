@@ -18,20 +18,24 @@ echo "🌐 Backup navigateurs (Option B — fichiers critiques)..."
 get_ff_profile() {
   # Cherche le profile par défaut dans profiles.ini (format Fedora)
   local ini="$1/profiles.ini"
-  local profile_dir=""
-  # Méthode 1: section [General] avec Default=1
+  # Méthode 1: section [Install*] avec Locked=1 (profil Fedora verrouillé)
+  local locked_profile=$(awk '/^\[Install/,/^\s*$/' "$ini" 2>/dev/null | grep '^Default=' | cut -d= -f2 | tr -d '[:space:]')
+  if [ -n "$locked_profile" ] && [ -d "$1/$locked_profile" ]; then
+    echo "$locked_profile"
+    return
+  fi
+  # Méthode 2: section [Profile*] avec Default=1
   local section=$(grep -n '^\[Profile' "$ini" 2>/dev/null | cut -d: -f1)
   while IFS= read -r line; do
     local next_section=$(echo "$section" | grep -A1 "^${line}$" | tail -1)
     local block=$(sed -n "${line},${next_section:-$}p" "$ini" 2>/dev/null | grep -E '^(Default|Path)=')
     local default=$(echo "$block" | grep '^Default=' | cut -d= -f2 | tr -d '[:space:]')
     local path=$(echo "$block" | grep '^Path=' | cut -d= -f2 | tr -d '[:space:]')
-    if [ "$default" = "yes" ] || [ "$default" = "1" ]; then
-      profile_dir="$path"
-      break
+    if [ "$default" = "1" ]; then
+      [ -n "$path" ] && echo "$path" && return
     fi
   done <<< "$(echo "$section")"
-  [ -n "$profile_dir" ] && echo "$profile_dir" || echo ""
+  echo ""
 }
 
 FF_PROFILE=$(get_ff_profile "$FF_SRC")
