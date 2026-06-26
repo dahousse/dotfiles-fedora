@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup quotidien dotfiles-fedora (packages, configs, navigateurs)
+Documentation=https://github.com/dahousse/dotfiles-fedora
+
+[Service]
+Type=oneshot
+ExecStart=%h/dotfiles-fedora/scripts/backup-all.sh
+StandardOutput=journal
+StandardError=journal

@@ -1,0 +1,11 @@
+[Unit]
+Description=Backup quotidien dotfiles-fedora (22h00 tous les jours)
+Documentation=https://github.com/dahousse/dotfiles-fedora
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+RandomizedDelaySec=1800
+
+[Install]
+WantedBy=timers.target
