@@ -15,7 +15,26 @@ mkdir -p "$BACKUP_DIR"
 echo "🌐 Backup navigateurs (Option B — fichiers critiques)..."
 
 # ── Firefox ──────────────────────────────────────
-FF_PROFILE=$(grep -A2 'Default=1' "$FF_SRC/profiles.ini" 2>/dev/null | grep '^Default=' | cut -d= -f2)
+get_ff_profile() {
+  # Cherche le profile par défaut dans profiles.ini (format Fedora)
+  local ini="$1/profiles.ini"
+  local profile_dir=""
+  # Méthode 1: section [General] avec Default=1
+  local section=$(grep -n '^\[Profile' "$ini" 2>/dev/null | cut -d: -f1)
+  while IFS= read -r line; do
+    local next_section=$(echo "$section" | grep -A1 "^${line}$" | tail -1)
+    local block=$(sed -n "${line},${next_section:-$}p" "$ini" 2>/dev/null | grep -E '^(Default|Path)=')
+    local default=$(echo "$block" | grep '^Default=' | cut -d= -f2 | tr -d '[:space:]')
+    local path=$(echo "$block" | grep '^Path=' | cut -d= -f2 | tr -d '[:space:]')
+    if [ "$default" = "yes" ] || [ "$default" = "1" ]; then
+      profile_dir="$path"
+      break
+    fi
+  done <<< "$(echo "$section")"
+  [ -n "$profile_dir" ] && echo "$profile_dir" || echo ""
+}
+
+FF_PROFILE=$(get_ff_profile "$FF_SRC")
 if [ -n "$FF_PROFILE" ] && [ -d "$FF_SRC/$FF_PROFILE" ]; then
   FF_DEST="$BACKUP_DIR/firefox"
   mkdir -p "$FF_DEST"
@@ -43,7 +62,7 @@ for addon in data.get('addons', []):
 
   echo "  🦊 Firefox: $(du -sh "$FF_DEST" | cut -f1) backupé"
 else
-  echo "  ⚠️  Firefox profile introuvable"
+  echo "  ⚠️  Firefox profile introuvable ($FF_SRC/$FF_PROFILE)"
 fi
 
 # ── Chromium ─────────────────────────────────────
