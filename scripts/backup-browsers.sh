@@ -19,7 +19,7 @@ get_ff_profile() {
   # Cherche le profile par défaut dans profiles.ini (format Fedora)
   local ini="$1/profiles.ini"
   # Méthode 1: section [Install*] avec Locked=1 (profil Fedora verrouillé)
-  local locked_profile=$(awk '/^\[Install/,/^\s*$/' "$ini" 2>/dev/null | grep '^Default=' | cut -d= -f2 | tr -d '[:space:]')
+  local locked_profile=$(grep -A5 '^\[Install' "$ini" 2>/dev/null | grep '^Default=' | cut -d= -f2 | tr -d '[:space:]')
   if [ -n "$locked_profile" ] && [ -d "$1/$locked_profile" ]; then
     echo "$locked_profile"
     return
