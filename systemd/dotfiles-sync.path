@@ -2,9 +2,14 @@
 Description=Watch dotfiles for changes and sync
 
 [Path]
+# Dotfiles (modifications via symlinks)
 PathModified=%h/dotfiles-fedora/zsh/.zshrc
 PathModified=%h/dotfiles-fedora/shell/.p10k.zsh
 PathModified=%h/dotfiles-fedora/git/.gitconfig
+# Fichiers de backup (paquets, navigateurs, etc.)
+PathModified=%h/dotfiles-fedora/backup/
+# Scripts (si on les améliore)
+PathModified=%h/dotfiles-fedora/scripts/
 Unit=dotfiles-sync.service
 
 [Install]
