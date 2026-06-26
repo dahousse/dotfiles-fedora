@@ -61,3 +61,4 @@ setopt AUTO_CD
 # ---------- STARTUP ----------
 fastfetch
 
+
