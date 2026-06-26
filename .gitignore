@@ -21,3 +21,6 @@ backups/
 
 # Logs
 *.log
+
+# Backup navigateurs (données sensitives / binaires — gardées hors git)
+backup/browsers/
