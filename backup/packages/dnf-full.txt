@@ -3737,7 +3737,7 @@ tcpdump.x86_64                                       14:4.99.6-3.fc44           
 teamd.x86_64                                         1.32-13.fc44                               <inconnu>
 tecla.x86_64                                         50.0-1.fc44                                <inconnu>
 terminator.noarch                                    2.1.5-4.fc44                               <inconnu>
-terraform.x86_64                                     1.15.6-1                                   hashicorp
+terraform.x86_64                                     1.15.7-1                                   hashicorp
 tesseract-common.noarch                              5.5.2-1.fc44                               <inconnu>
 tesseract-langpack-eng.noarch                        4.1.0-12.fc44                              <inconnu>
 tesseract-libs.x86_64                                5.5.2-1.fc44                               <inconnu>

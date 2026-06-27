@@ -6,7 +6,7 @@ dash-to-dock@micxgx.gmail.com
   Auteur d’origine: micxgx@gmail.com
   Version: 105
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- dash-to-dock@micxgx.gmail.com ---
 dash-to-dock@micxgx.gmail.com
   Nom: Dash to Dock
@@ -16,7 +16,7 @@ dash-to-dock@micxgx.gmail.com
   Auteur d’origine: micxgx@gmail.com
   Version: 105
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- docker@stickman_0x00.com ---
 docker@stickman_0x00.com
   Nom: Docker
@@ -25,7 +25,7 @@ docker@stickman_0x00.com
   URL: https://gitlab.com/stickman_0x00/gnome_shell_extension_docker
   Version: 47
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- docker-manager@omerfarukgungor ---
 docker-manager@omerfarukgungor
   Nom: Docker Manager
@@ -34,7 +34,7 @@ docker-manager@omerfarukgungor
   URL: 
   Version: 1
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- apps-menu@gnome-shell-extensions.gcampax.github.com ---
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Nom: Apps Menu
@@ -44,7 +44,7 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.2
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- background-logo@fedorahosted.org ---
 background-logo@fedorahosted.org
   Nom: Background Logo
@@ -53,7 +53,7 @@ background-logo@fedorahosted.org
   URL: https://forge.fedoraproject.org/workstation/background-logo-extension
   Version: 50.1
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- launch-new-instance@gnome-shell-extensions.gcampax.github.com ---
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Nom: Launch New Instance
@@ -73,7 +73,7 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.2
   Activé: Oui
-  État: ACTIVE
+  État: INACTIVE
 --- window-list@gnome-shell-extensions.gcampax.github.com ---
 window-list@gnome-shell-extensions.gcampax.github.com
   Nom: Window List
