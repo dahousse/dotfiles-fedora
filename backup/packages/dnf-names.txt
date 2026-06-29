@@ -85,6 +85,8 @@ apr
 apr-util
 apr-util-lmdb
 apr-util-openssl
+arc-theme
+arc-theme-plank
 aribb24
 ark
 ark-libs
@@ -121,6 +123,8 @@ b43-fwcutter
 b43-openfwwf
 babl
 baloo-widgets
+bamf
+bamf-daemon
 baobab
 bash
 bash-color-prompt
@@ -210,6 +214,16 @@ cabextract
 ca-certificates
 cairo
 cairo-devel
+cairo-dock
+cairo-dock-core
+cairo-dock-libs
+cairo-dock-plug-ins
+cairo-dock-plug-ins-base
+cairo-dock-plug-ins-common
+cairo-dock-plug-ins-dbus
+cairo-dock-plug-ins-kde
+cairo-dock-plug-ins-xfce
+cairo-dock-python3
 cairo-gobject
 cairomm
 cairomm1
@@ -499,6 +513,7 @@ dwz
 e2fsprogs
 e2fsprogs-libs
 ebook-tools-libs
+echo-icon-theme
 ed
 editorconfig-libs
 edk2-ovmf
@@ -514,6 +529,8 @@ egl-wayland2
 egl-x11
 eim-cli
 electronics-menu
+elementary-icon-theme
+elementary-xfce-icon-theme
 elfutils
 elfutils-debuginfod-client
 elfutils-default-yama-scope
@@ -883,6 +900,7 @@ gpgmepp
 gpgverify
 gpm-libs
 gpsd-libs
+granite
 grantlee-editor
 grantlee-editor-libs
 grantleetheme
@@ -1048,6 +1066,7 @@ ibus-table
 ibus-table-chinese
 ibus-table-chinese-cangjie
 ibus-typing-booster
+ibus-xinit
 iceauth
 icoutils
 igvm-libs
@@ -1537,6 +1556,7 @@ libcmis
 libcollection
 libcom_err
 libcomps
+libconfig
 libcue
 libcupsfilters
 libcurl
@@ -1879,6 +1899,7 @@ librttopo
 libsamplerate
 libsane-airscan
 libsane-hpaio
+libsass
 libsbc
 libseat
 libseccomp
@@ -2115,6 +2136,8 @@ luksmeta
 lvm2
 lvm2-dbusd
 lvm2-libs
+lxappearance
+lxsession
 lz4-libs
 lzip
 lzo
@@ -2215,6 +2238,7 @@ mingw-filesystem-base
 minicom
 miniupnpc
 minizip-ng-compat
+mint-themes
 mint-x-icons
 mint-y-icons
 mint-y-theme
@@ -2756,6 +2780,7 @@ phonon-qt5
 phonon-qt5-backend-vlc
 phonon-qt6
 phonon-qt6-backend-vlc
+picom
 picosat-libs
 pidgin
 pigz
@@ -2786,6 +2811,8 @@ pkcs11-provider
 pkgconf
 pkgconf-m4
 pkgconf-pkg-config
+plank
+plank-libs
 plasma5support
 plasma-activities
 plasma-activities-stats
@@ -3467,6 +3494,7 @@ rpm-plugin-selinux
 rpm-plugin-systemd-inhibit
 rpm-sequoia
 rpm-sign-libs
+rsms-inter-fonts
 R-srpm-macros
 rsync
 rsyslog
@@ -3522,6 +3550,7 @@ sane-backends
 sane-backends-drivers-cameras
 sane-backends-drivers-scanners
 sane-backends-libs
+sassc
 satyr
 screen
 screenfetch
@@ -4063,6 +4092,7 @@ xfce4-session
 xfce4-settings
 xfce4-taskmanager
 xfce4-terminal
+xfce4-whiskermenu-plugin
 xfce-polkit
 xfconf
 xfdesktop
@@ -4131,6 +4161,7 @@ yelp-xsl
 yq
 yyjson
 zchunk-libs
+zeitgeist-libs
 zenity
 zeromq
 zig-srpm-macros

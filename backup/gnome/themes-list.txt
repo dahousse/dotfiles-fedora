@@ -1,0 +1,13 @@
+WhiteSur-Dark
+WhiteSur-Dark-hdpi
+WhiteSur-Dark-solid
+WhiteSur-Dark-solid-hdpi
+WhiteSur-Dark-solid-xhdpi
+WhiteSur-Dark-xhdpi
+WhiteSur-gtk-theme
+WhiteSur-Light
+WhiteSur-Light-hdpi
+WhiteSur-Light-solid
+WhiteSur-Light-solid-hdpi
+WhiteSur-Light-solid-xhdpi
+WhiteSur-Light-xhdpi
