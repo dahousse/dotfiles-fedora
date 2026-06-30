@@ -63,3 +63,6 @@ fastfetch
 
 
 # test-fin-du-monde
+
+# opencode
+export PATH=/home/hasmi/.opencode/bin:$PATH
