@@ -66,3 +66,6 @@ fastfetch
 
 # opencode
 export PATH=/home/hasmi/.opencode/bin:$PATH
+
+# Added by Qwen Code standalone installer
+export PATH="/home/hasmi/.local/bin:$PATH"
