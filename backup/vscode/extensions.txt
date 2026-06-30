@@ -3,12 +3,12 @@ ceciljacob.code-plus-theme@1.28.0
 continue.continue@2.0.0
 cschlosser.doxdocgen@1.4.0
 danielthielking.aws-cloudformation-yaml@0.2.2
-dart-code.dart-code@3.136.1
-dart-code.flutter@3.136.0
+dart-code.dart-code@3.138.0
+dart-code.flutter@3.138.0
 davidanson.vscode-markdownlint@0.61.2
 digitalforge2.01b0940d@1.0.0
 donjayamanne.githistory@0.6.20
-eamodio.gitlens@2026.6.290940
+eamodio.gitlens@2026.6.300615
 ecmel.vscode-html-css@2.0.14
 emmanuelbeziat.vscode-great-icons@2.1.121
 georgewfraser.vscode-javac@0.2.47
@@ -37,7 +37,7 @@ ms-python.vscode-python-envs@1.36.0
 ms-toolsai.jupyter@2025.9.1
 ms-toolsai.jupyter-keymap@1.1.2
 ms-toolsai.jupyter-renderers@1.3.0
-ms-vscode-remote.remote-containers@0.462.0
+ms-vscode-remote.remote-containers@0.464.0
 ms-vscode-remote.remote-ssh@0.124.0
 ms-vscode-remote.remote-ssh-edit@0.87.0
 ms-vscode-remote.remote-wsl@0.104.3
@@ -48,7 +48,7 @@ ms-vscode.cpptools-extension-pack@1.5.1
 ms-vscode.cpptools-themes@2.0.0
 ms-vscode.powershell@2025.4.0
 ms-vsliveshare.vsliveshare@1.1.122
-ms-windows-ai-studio.windows-ai-studio@1.6.1
+ms-windows-ai-studio.windows-ai-studio@1.6.2
 mtxr.sqltools@0.28.5
 openai.chatgpt@26.5623.61825
 pkief.material-icon-theme@5.36.1

@@ -2482,6 +2482,7 @@ opencascade-modeling.x86_64                          7.9.3-2.fc44               
 opencascade-ocaf.x86_64                              7.9.3-2.fc44                               <inconnu>
 opencascade-visualization.x86_64                     7.9.3-2.fc44                               <inconnu>
 opencl-filesystem.noarch                             1.0-24.fc44                                fedora
+opencode.x86_64                                      1.17.11-1                                  @commandline
 openconnect.x86_64                                   9.12-11.fc44                               <inconnu>
 opencore-amr.x86_64                                  0.1.6-10.fc44                              <inconnu>
 opencv-calib3d.x86_64                                4.13.0-1.fc44                              fedora

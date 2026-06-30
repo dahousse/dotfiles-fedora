@@ -2401,6 +2401,7 @@ opencascade-ocaf
 opencascade-visualization
 opencl-filesystem
 OpenCL-ICD-Loader
+opencode
 openconnect
 opencore-amr
 opencv-calib3d
