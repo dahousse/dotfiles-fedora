@@ -983,8 +983,6 @@ gutenprint-cups
 gutenprint-libs
 gvfs
 gvfs-afc
-gvfs-afp
-gvfs-archive
 gvfs-client
 gvfs-fuse
 gvfs-goa
