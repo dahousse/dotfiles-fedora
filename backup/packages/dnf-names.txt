@@ -2063,9 +2063,11 @@ libxfce4ui
 libxfce4util
 libxfce4windowing
 libXfixes
+libXfixes-devel
 libXfont2
 libXft
 libXi
+libXi-devel
 libXinerama
 libxkbcommon
 libxkbcommon-devel
@@ -2088,6 +2090,7 @@ libxshmfence
 libxslt
 libXt
 libXtst
+libXtst-devel
 libXv
 libXvMC
 libXxf86dga
@@ -3665,6 +3668,7 @@ swtpm
 swtpm-libs
 swtpm-selinux
 swtpm-tools
+sxhkd
 symlinks
 sysbench
 sysprof-capture-devel
@@ -4054,6 +4058,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xclip
+xcursorgen
 xdelta
 xdg-dbus-proxy
 xdg-desktop-portal

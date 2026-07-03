@@ -2,6 +2,9 @@ AUTHORS
 circle-folder
 colorful-folder
 COPYING
+default
+elementary-xfce
+fedora-logo-icon.png
 install.sh
 links
 preview01.png

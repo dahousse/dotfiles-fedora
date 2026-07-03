@@ -2,6 +2,9 @@ WhiteSur-Dark
 WhiteSur-Dark-hdpi
 WhiteSur-Dark-solid
 WhiteSur-Dark-solid-hdpi
+WhiteSur-Dark-solid-pink
+WhiteSur-Dark-solid-pink-hdpi
+WhiteSur-Dark-solid-pink-xhdpi
 WhiteSur-Dark-solid-xhdpi
 WhiteSur-Dark-xhdpi
 WhiteSur-gtk-theme
