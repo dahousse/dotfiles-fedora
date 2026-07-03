@@ -24,7 +24,7 @@ babel==2.18.0
 backoff==2.2.1
 bcrypt==5.0.0
 Beaker==1.12.1
-beautifulsoup4==4.14.3
+beautifulsoup4==4.15.0
 bleach==6.2.0
 blinker==1.9.0
 blivet==3.13.2
@@ -184,7 +184,7 @@ mcp==1.26.0
 mdit-py-plugins==0.6.1
 mdurl==0.1.2
 menuinst==2.3.1
-mercurial==7.2
+mercurial==7.2.3
 mistune==3.2.1
 msgpack==1.1.2
 msgspec==0.20.0
