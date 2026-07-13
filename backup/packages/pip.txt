@@ -223,7 +223,7 @@ pfzy==0.3.4
 pid==3.0.4
 pillow==12.1.1
 pip==26.0.1
-pipx==1.14.1
+pipx==1.15.0
 platformdirs==4.9.1
 playwright==1.60.0
 pluggy==1.6.0
