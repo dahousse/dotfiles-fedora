@@ -12,3 +12,5 @@ preview.png
 README.md
 release
 src
+Sweet-cursors
+WhiteSur-cursors
