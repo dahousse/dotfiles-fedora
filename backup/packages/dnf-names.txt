@@ -3111,6 +3111,8 @@ python3-louis
 python3-lxml
 python3-mako
 python3-manatools
+python3-manatools+gtk
+python3-manatools+qt
 python3-markdown
 python3-markdown-it-py
 python3-markupsafe

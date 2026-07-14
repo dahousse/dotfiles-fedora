@@ -8,7 +8,7 @@ dart-code.flutter@3.138.0
 davidanson.vscode-markdownlint@0.61.2
 digitalforge2.01b0940d@1.0.0
 donjayamanne.githistory@0.6.20
-eamodio.gitlens@2026.7.130610
+eamodio.gitlens@2026.7.140617
 ecmel.vscode-html-css@2.0.14
 emmanuelbeziat.vscode-great-icons@2.1.121
 georgewfraser.vscode-javac@0.2.49
@@ -26,7 +26,7 @@ ms-azuretools.vscode-azureresourcegroups@0.12.7
 ms-azuretools.vscode-azureterraform@0.10.3
 ms-azuretools.vscode-containers@2.4.5
 ms-azuretools.vscode-docker@2.0.0
-ms-ceintl.vscode-language-pack-fr@1.127.2026070501
+ms-ceintl.vscode-language-pack-fr@1.128.2026071013
 ms-dotnettools.csharp@2.140.9
 ms-dotnettools.vscode-dotnet-runtime@3.1.0
 ms-kubernetes-tools.vscode-kubernetes-tools@1.4.0
@@ -50,7 +50,7 @@ ms-vscode.powershell@2025.4.0
 ms-vsliveshare.vsliveshare@1.1.122
 ms-windows-ai-studio.windows-ai-studio@1.6.3
 mtxr.sqltools@0.28.6
-openai.chatgpt@26.5707.41301
+openai.chatgpt@26.5707.71524
 pkief.material-icon-theme@5.36.1
 platformio.platformio-ide@3.3.4
 redhat.ansible@26.6.0
