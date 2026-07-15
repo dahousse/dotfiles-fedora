@@ -32,8 +32,8 @@ blivet-gui==2.6.0
 blosc2==3.12.0
 boltons==25.0.0
 boolean.py==5.0
-boto3==1.43.44
-botocore==1.43.44
+boto3==1.43.46
+botocore==1.43.46
 Bottleneck==1.6.0
 Brlapi==0.8.7
 Brotli==1.2.0
@@ -329,7 +329,7 @@ rpmautospec-core==0.1.5
 rsa==4.9
 ruamel.yaml==0.19.1
 ruamel.yaml.clib==0.2.15
-s3transfer==0.19.0
+s3transfer==0.19.1
 scipy==1.16.2
 scour==0.38.2
 screeninfo==0.8.1
