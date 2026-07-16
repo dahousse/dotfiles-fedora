@@ -361,7 +361,7 @@ cockpit-storaged.noarch                              364-1.fc44                 
 cockpit-system.noarch                                364-1.fc44                                 updates
 cockpit-ws.x86_64                                    364-1.fc44                                 updates
 cockpit-ws-selinux.x86_64                            364-1.fc44                                 updates
-code.x86_64                                          1.128.0-1783465449.el8                     code
+code.x86_64                                          1.128.1-1784039574.el8                     code
 codec2.x86_64                                        1.2.0-9.fc44                               <inconnu>
 color-filesystem.noarch                              1-38.fc44                                  <inconnu>
 colord.x86_64                                        1.4.8-4.fc44                               <inconnu>
@@ -709,8 +709,8 @@ fprintd-pam.x86_64                                   1.94.5-5.fc44              
 freecell-solver-data.noarch                          6.16.0-2.fc44                              fedora
 freeglut.x86_64                                      3.8.0-2.fc44                               <inconnu>
 freeipmi.x86_64                                      1.6.15-5.fc44                              <inconnu>
-freerdp.x86_64                                       2:3.27.1-1.fc44                            updates
-freerdp-libs.x86_64                                  2:3.27.1-1.fc44                            updates
+freerdp.x86_64                                       2:3.28.0-1.fc44                            updates
+freerdp-libs.x86_64                                  2:3.28.0-1.fc44                            updates
 freerdp-nightly.x86_64                               3.0-0+0~20260515033817.2078~1.git4f6c35c5d @commandline
 freetype.x86_64                                      2.14.3-1.fc44                              <inconnu>
 freetype-devel.x86_64                                2.14.3-1.fc44                              <inconnu>
@@ -750,8 +750,8 @@ gcr3.x86_64                                          3.41.1-12.fc44             
 gcr3-base.x86_64                                     3.41.1-12.fc44                             <inconnu>
 gd.x86_64                                            2.3.3-21.fc44                              <inconnu>
 gdal-libs.x86_64                                     3.12.4-1.fc44                              <inconnu>
-gdb.x86_64                                           17.2-1.fc44                                updates
-gdb-headless.x86_64                                  17.2-1.fc44                                updates
+gdb.x86_64                                           17.2-2.fc44                                updates
+gdb-headless.x86_64                                  17.2-2.fc44                                updates
 gdbm.x86_64                                          1:1.23-11.fc44                             <inconnu>
 gdbm-libs.x86_64                                     1:1.23-11.fc44                             <inconnu>
 gdcm.x86_64                                          3.0.24-17.fc44                             fedora
@@ -2165,7 +2165,7 @@ libwayland-server.i686                               1.25.0-1.fc44              
 libwayland-server.x86_64                             1.25.0-1.fc44                              updates
 libwbclient.x86_64                                   2:4.24.4-1.fc44                            updates
 libwebp.x86_64                                       1.6.0-3.fc44                               <inconnu>
-libwinpr.x86_64                                      2:3.27.1-1.fc44                            updates
+libwinpr.x86_64                                      2:3.28.0-1.fc44                            updates
 libwmf.x86_64                                        0.2.13-9.fc44                              <inconnu>
 libwmf-lite.x86_64                                   0.2.13-9.fc44                              <inconnu>
 libwnck3.x86_64                                      43.3-2.fc44                                <inconnu>
@@ -4055,8 +4055,8 @@ virt-manager-common.noarch                           5.1.0-4.fc44               
 virt-viewer.x86_64                                   11.0-18.fc44                               <inconnu>
 virt-what.x86_64                                     1.27-5.fc44                                <inconnu>
 virtiofsd.x86_64                                     1.13.3-1.fc44                              <inconnu>
-virtualbox-guest-additions.x86_64                    7.2.8-1.fc44                               updates
-vivaldi-stable.x86_64                                8.1.4087.48-1                              vivaldi
+virtualbox-guest-additions.x86_64                    7.2.12-1.fc44                              updates
+vivaldi-stable.x86_64                                8.1.4087.53-1                              vivaldi
 vkBasalt.x86_64                                      0.3.2.10-8.fc44                            <inconnu>
 vlc-libs.x86_64                                      1:3.0.23-10.fc44                           <inconnu>
 vlc-plugin-ffmpeg.x86_64                             1:3.0.23-10.fc44                           <inconnu>
