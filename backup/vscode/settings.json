@@ -27,8 +27,8 @@
     },
     "chat.viewSessions.orientation": "stacked",
     "azureTerraform.survey": {
-        "surveyPromptDate": "2026-07-07T19:19:47.717Z",
-        "surveyPromptIgnoredCount": 1
+        "surveyPromptDate": "2026-08-15T22:31:12.156Z",
+        "surveyPromptIgnoredCount": 2
     },
     "yaml.disableSchemaDetection": [
         "**/.github/workflows/*.yml",

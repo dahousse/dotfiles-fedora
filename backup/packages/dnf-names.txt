@@ -54,6 +54,7 @@ akregator
 akregator-libs
 alacritty
 alembic-libs
+alertmanager
 alsa-lib
 alsa-sof-firmware
 alsa-ucm
@@ -3967,6 +3968,7 @@ userspace-rcu
 utf8proc
 util-linux
 util-linux-core
+util-linux-script
 uv
 vazirmatn-vf-fonts
 vid
