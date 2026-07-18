@@ -13,7 +13,7 @@ ecmel.vscode-html-css@2.0.14
 emmanuelbeziat.vscode-great-icons@2.1.121
 georgewfraser.vscode-javac@0.2.49
 github.vscode-github-actions@0.32.3
-github.vscode-pull-request-github@0.156.0
+github.vscode-pull-request-github@0.158.0
 hashicorp.terraform@2.39.4
 jaycetyle.vscode-gnu-global@0.3.5
 jebbs.plantuml@2.18.1
