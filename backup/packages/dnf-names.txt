@@ -2108,6 +2108,7 @@ lightdm-gobject
 lightdm-gtk
 lilv-libs
 linkdupes
+links
 linux-atm-libs
 linux-firmware
 linux-firmware-whence
@@ -2300,6 +2301,7 @@ neon
 netavark
 netcdf
 net-snmp-libs
+netsurf
 nettle
 net-tools
 NetworkManager
@@ -4010,6 +4012,7 @@ vulkan-loader
 vulkan-tools
 w3m
 warp-terminal
+waterfox
 wavpack
 wayland-utils
 wcurl
