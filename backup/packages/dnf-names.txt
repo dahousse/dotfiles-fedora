@@ -40,9 +40,6 @@ adwaita-icon-theme
 adwaita-icon-theme-legacy
 adwaita-mono-fonts
 adwaita-sans-fonts
-aha
-akmod-nvidia
-akmods
 akonadi-calendar
 akonadi-contacts
 akonadi-import-wizard
@@ -256,6 +253,8 @@ cifs-utils
 cifs-utils-info
 cirrus-audio-firmware
 cjson
+clang-libs
+clang-resource-filesystem
 claws-mail
 claws-mail-plugins-archive
 claws-mail-plugins-attachwarner
@@ -270,13 +269,11 @@ claws-mail-plugins-smime
 claws-mail-plugins-spam-report
 claws-mail-plugins-tnef
 claws-mail-plugins-vcalendar
-clblast
 cldr-emoji-annotation
 cldr-emoji-annotation-dtd
 clevis
 clevis-luks
 clevis-pin-tpm2
-clinfo
 clipman
 cloud-utils-growpart
 clucene-contribs-lib
@@ -315,6 +312,7 @@ colord-libs
 color-filesystem
 compat-lua-libs
 compface
+compiler-rt
 composefs
 composefs-libs
 comps-extras
@@ -523,11 +521,6 @@ efibootmgr
 efi-filesystem
 efi-srpm-macros
 efivar-libs
-egl-gbm
-egl-utils
-egl-wayland
-egl-wayland2
-egl-x11
 eim-cli
 electronics-menu
 elementary-icon-theme
@@ -572,8 +565,6 @@ f44-backgrounds-base
 f44-backgrounds-gnome
 f44-backgrounds-kde
 faad2-libs
-fakeroot
-fakeroot-libs
 farstream02
 fastfetch
 fatresize
@@ -737,6 +728,9 @@ glibc-devel
 glibc-gconv-extra
 glibmm2
 glib-networking
+glslang
+glslang-devel
+glslc
 glusterfs
 glusterfs-cli
 glusterfs-client-xlators
@@ -1207,7 +1201,6 @@ keditbookmarks-libs
 kernel
 kernel-core
 kernel-devel
-kernel-devel-matched
 kernel-headers
 kernel-modules
 kernel-modules-core
@@ -1364,7 +1357,6 @@ kidentitymanagement
 kimageannotator-common
 kimageannotator-qt6
 kimap
-kinfocenter
 kio-admin
 kio-extras
 kio-extras-kf5
@@ -1390,8 +1382,6 @@ kmime
 kmines
 kmod
 kmod-libs
-kmod-nvidia-7
-kmodtool
 kmouth
 knighttime
 kolourpaint
@@ -1550,6 +1540,8 @@ libcgroup
 libchewing
 libchromaprint
 libclastfm
+libclc
+libclc-spirv
 libcloudproviders
 libcmis
 libcollection
@@ -1572,7 +1564,6 @@ libdeflate
 libdhash
 libdicom
 libdisplay-info
-libdisplay-info-tools
 libdmapsharing4
 libdmtx
 libdnf
@@ -1794,6 +1785,8 @@ libodfgen
 liboeffis
 libogg
 libolm
+libomp
+libomp-devel
 libopenjph
 libopenmpt
 libopusenc
@@ -2114,6 +2107,8 @@ linux-firmware
 linux-firmware-whence
 livesys-scripts
 lksctp-tools
+llama-cpp
+llama-cpp-libs
 llhttp
 llvm-filesystem
 llvm-libs
@@ -2214,6 +2209,7 @@ mesa-libEGL
 mesa-libgbm
 mesa-libGL
 mesa-libGLU
+mesa-libOpenCL
 mesa-vulkan-drivers
 messagelib
 micro
@@ -2375,17 +2371,16 @@ ntfs-3g
 ntfs-3g-libs
 ntfs-3g-system-compression
 ntfsprogs
+numactl
 numactl-libs
 numad
 nvidia-gpu-firmware
-nvidia-modprobe
-nvidia-persistenced
-nvidia-settings
 nvme-cli
 nxpwireless-firmware
 ocaml-srpm-macros
 ocean-sound-theme
 ocfs2-tools
+ocl-icd
 ogdi
 okular
 okular-libs
@@ -2404,7 +2399,6 @@ opencascade-modeling
 opencascade-ocaf
 opencascade-visualization
 opencl-filesystem
-OpenCL-ICD-Loader
 opencode
 openconnect
 opencore-amr
@@ -3170,7 +3164,6 @@ python3-polib
 python3-policycoreutils
 python3-pooch
 python3-productmd
-python3-progressbar2
 python3-prometheus_client
 python3-prompt-toolkit
 python3-propcache
@@ -3231,8 +3224,6 @@ python3-rfc3986-validator
 python3-rich
 python3-rpds-py
 python3-rpm
-python3-rpmautospec
-python3-rpmautospec-core
 python3-rpm-generators
 python3-rpm-macros
 python3-rsa
@@ -3277,7 +3268,6 @@ python3-uri-template
 python3-urllib3
 python3-urllib3+socks
 python3-userpath
-python3-utils
 python3-uvicorn
 python3-virtualenv
 python3-vkbasalt-cli
@@ -3491,7 +3481,6 @@ rpi-imager
 rpm
 rpm-build
 rpm-build-libs
-rpmdevtools
 rpm-libs
 rpm-ostree
 rpm-ostree-libs
@@ -3632,6 +3621,10 @@ spice-gtk3
 spice-server
 spice-vdagent
 spice-webdavd
+spirv-headers-devel
+spirv-llvm-translator
+spirv-tools
+spirv-tools-devel
 spirv-tools-libs
 sqlite
 sqlite-libs
@@ -4008,13 +4001,14 @@ vte291-gtk4
 vte-profile
 vtk
 vtk-qt
+vulkan-headers
 vulkan-loader
+vulkan-loader-devel
 vulkan-tools
 w3m
 warp-terminal
 waterfox
 wavpack
-wayland-utils
 wcurl
 web-assets-filesystem
 webkit2gtk4
@@ -4127,13 +4121,6 @@ xorg-x11-drv-evdev
 xorg-x11-drv-intel
 xorg-x11-drv-libinput
 xorg-x11-drv-nouveau
-xorg-x11-drv-nvidia
-xorg-x11-drv-nvidia-cuda
-xorg-x11-drv-nvidia-cuda-libs
-xorg-x11-drv-nvidia-kmodsrc
-xorg-x11-drv-nvidia-libs
-xorg-x11-drv-nvidia-power
-xorg-x11-drv-nvidia-xorg-libs
 xorg-x11-drv-openchrome
 xorg-x11-drv-qxl
 xorg-x11-drv-vmware

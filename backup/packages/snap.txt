@@ -1,9 +1,11 @@
 bare
 core
 core24
+core26
 fing-agent
 gnome-46-2404
 gtk-common-themes
+llama-cpp
 mesa-2404
 rpi-imager
 snapd
