@@ -409,7 +409,7 @@ cups-ipptool.x86_64                                  1:2.4.19-3.fc44            
 cups-libs.x86_64                                     1:2.4.19-3.fc44                            updates
 cups-pk-helper.x86_64                                0.2.7-12.fc44                              <inconnu>
 curl.x86_64                                          8.18.0-6.fc44                              <inconnu>
-cursor.x86_64                                        3.12.17-1784259248.el8                     @commandline
+cursor.x86_64                                        3.12.29-1784606859.el8                     cursor
 cxl-libs.x86_64                                      85-1.fc44                                  updates
 cyrus-sasl-gssapi.x86_64                             2.1.28-35.fc44                             <inconnu>
 cyrus-sasl-lib.x86_64                                2.1.28-35.fc44                             <inconnu>
@@ -2200,8 +2200,8 @@ linux-firmware.noarch                                20260622-1.fc44            
 linux-firmware-whence.noarch                         20260622-1.fc44                            updates
 livesys-scripts.noarch                               0.9.6-1.fc44                               <inconnu>
 lksctp-tools.x86_64                                  1.0.21-3.fc44                              <inconnu>
-llama-cpp.x86_64                                     b10068-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
-llama-cpp-libs.x86_64                                b10068-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
+llama-cpp.x86_64                                     b10075-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
+llama-cpp-libs.x86_64                                b10075-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
 llhttp.x86_64                                        9.3.1-1.fc44                               <inconnu>
 llvm-filesystem.i686                                 22.1.8-1.fc44                              updates
 llvm-filesystem.x86_64                               22.1.8-1.fc44                              updates
