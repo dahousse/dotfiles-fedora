@@ -32,8 +32,8 @@ blivet-gui==2.6.0
 blosc2==3.12.0
 boltons==25.0.0
 boolean.py==5.0
-boto3==1.43.50
-botocore==1.43.50
+boto3==1.43.52
+botocore==1.43.52
 Bottleneck==1.6.0
 Brlapi==0.8.7
 Brotli==1.2.0
