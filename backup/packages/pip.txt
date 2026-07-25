@@ -27,7 +27,7 @@ Beaker==1.12.1
 beautifulsoup4==4.15.0
 bleach==6.2.0
 blinker==1.9.0
-blivet==3.13.2
+blivet==3.14.0
 blivet-gui==2.6.0
 blosc2==3.12.0
 boltons==25.0.0
