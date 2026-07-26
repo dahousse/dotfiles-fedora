@@ -274,6 +274,7 @@ cldr-emoji-annotation-dtd
 clevis
 clevis-luks
 clevis-pin-tpm2
+clinfo
 clipman
 cloud-utils-growpart
 clucene-contribs-lib

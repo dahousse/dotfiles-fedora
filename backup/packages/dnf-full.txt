@@ -329,6 +329,7 @@ cldr-emoji-annotation-dtd.noarch                     1:48.2-1.fc44              
 clevis.x86_64                                        21-14.fc44                                 <inconnu>
 clevis-luks.x86_64                                   21-14.fc44                                 <inconnu>
 clevis-pin-tpm2.x86_64                               0.5.4-1.fc44                               <inconnu>
+clinfo.x86_64                                        3.0.25.02.14-3.fc44                        fedora
 clipman.x86_64                                       1.6.4-9.fc44                               fedora
 cloud-utils-growpart.noarch                          0.33-13.fc44                               <inconnu>
 clucene-contribs-lib.x86_64                          2.3.3.4-55.20130812.e8e3d20git.fc44        <inconnu>
