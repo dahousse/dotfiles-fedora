@@ -636,5 +636,6 @@
             }
         }
     ],
-    "llama-vscode.enabled": false
+    "llama-vscode.enabled": false,
+    "chat.disableAIFeatures": true
 }
