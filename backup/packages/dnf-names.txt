@@ -1089,6 +1089,7 @@ initial-setup-gui-wayland-generic
 initscripts-service
 inkscape
 inkscape-libs
+inotify-tools
 intel-audio-firmware
 intel-gmmlib
 intel-gpu-firmware
@@ -1727,6 +1728,7 @@ liblouisutdml
 liblouisutdml-utils
 liblqr-1
 libluksmeta
+libluv
 libmad
 libmamba
 libmanette
@@ -1952,6 +1954,7 @@ libtomcrypt
 libtommath
 libtool-ltdl
 libtpms
+libtree-sitter
 libudfread
 libudisks2
 libultrahdr
@@ -2019,6 +2022,7 @@ libvncserver
 libvorbis
 libvpl
 libvpx
+libvterm
 libwacom
 libwacom-data
 libwayland-client
@@ -2127,7 +2131,9 @@ lsb_release
 lsof
 lsscsi
 lttng-ust
+lua5
 luajit
+luajit2
 lua-lgi-compat
 lua-libs
 lua-srpm-macros
@@ -2295,6 +2301,7 @@ ndctl-libs
 neatvnc
 neochat
 neon
+neovim
 netavark
 netcdf
 net-snmp-libs
@@ -3129,6 +3136,7 @@ python3-nbclient
 python3-nbconvert
 python3-nbformat
 python3-ndindex
+python3-neovim
 python3-nest-asyncio
 python3-netifaces
 python3-newt
@@ -3911,6 +3919,7 @@ transmission
 transmission-common
 transmission-gtk
 tree
+tree-sitter-cli
 tree-sitter-srpm-macros
 tslib
 tumbler
@@ -3929,6 +3938,7 @@ udisks2-lvm2
 unar
 unbound-anchor
 unbound-libs
+unibilium
 unicode-ucd
 unity-gtk3-module
 unity-gtk-module-common
@@ -4021,6 +4031,7 @@ weston-libs-backend-rdp
 weston-libs-backend-vnc
 weston-libs-plugin-pipewire
 weston-libs-plugin-remoting
+wezterm
 wget2
 wget2-libs
 wget2-wget

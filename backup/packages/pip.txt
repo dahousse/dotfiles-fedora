@@ -273,6 +273,7 @@ pyinstrument==5.1.2
 PyJWT==2.12.1
 pykickstart==3.69
 PyMySQL==1.1.2
+pynvim==0.6.0
 pyOpenSSL==26.2.0
 pyotp==2.9.0
 pyparsing==3.1.2
@@ -321,7 +322,7 @@ rfc3339_validator==0.1.4
 rfc3986_validator==0.1.1
 rich==14.3.1
 rpds-py==0.29.0
-rpm==6.0.1
+rpm==6.0.2
 rsa==4.9
 ruamel.yaml==0.19.1
 ruamel.yaml.clib==0.2.15
