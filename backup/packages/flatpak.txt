@@ -41,6 +41,7 @@ io.github.nokse22.teleprompter
 io.github.pieterdd.RcloneShuttle
 io.github.sigmasd.pingmonitor
 io.github.zarestia_dev.rclone-manager
+io.gpt4all.gpt4all
 io.kapsa.drive
 net.nokyan.Resources
 net.sourceforge.Pdfedit
