@@ -159,10 +159,10 @@ atril-libs.x86_64                                    1.28.6-1.fc44              
 attr.x86_64                                          2.6.0-1.fc44                               updates
 audiocd-kio.x86_64                                   26.04.3-1.fc44                             updates
 audiocd-kio-doc.noarch                               26.04.3-1.fc44                             updates
-audit.x86_64                                         4.1.4-1.fc44                               <inconnu>
-audit-libs.i686                                      4.1.4-1.fc44                               <inconnu>
-audit-libs.x86_64                                    4.1.4-1.fc44                               <inconnu>
-audit-rules.x86_64                                   4.1.4-1.fc44                               <inconnu>
+audit.x86_64                                         4.2.1-1.fc44                               updates
+audit-libs.i686                                      4.2.1-1.fc44                               updates
+audit-libs.x86_64                                    4.2.1-1.fc44                               updates
+audit-rules.x86_64                                   4.2.1-1.fc44                               updates
 augeas-libs.x86_64                                   1.14.2-0.11.20260408gitada6219.fc44        <inconnu>
 aurorae.x86_64                                       6.7.3-1.fc44                               updates
 authselect.x86_64                                    1.7.1-1.fc44                               <inconnu>
@@ -242,7 +242,7 @@ bootupd.x86_64                                       0.2.35-1.fc44              
 bottles.noarch                                       2:52.0-5.fc44                              <inconnu>
 braille-printer-app.x86_64                           1:2.0~b0^386eea385f-11.fc44                <inconnu>
 brasero-libs.x86_64                                  3.12.3-17.fc44                             <inconnu>
-brave-browser.x86_64                                 1.92.144-1                                 brave-browser
+brave-browser.x86_64                                 1.93.129-1                                 brave-browser
 brave-keyring.noarch                                 1.19-1                                     brave-browser
 brcmfmac-firmware.noarch                             20260622-1.fc44                            updates
 breeze-cursor-theme.noarch                           6.7.3-1.fc44                               updates
@@ -410,7 +410,7 @@ cups-ipptool.x86_64                                  1:2.4.19-3.fc44            
 cups-libs.x86_64                                     1:2.4.19-3.fc44                            updates
 cups-pk-helper.x86_64                                0.2.7-12.fc44                              <inconnu>
 curl.x86_64                                          8.18.0-7.fc44                              updates
-cursor.x86_64                                        3.13.25-1785222635.el8                     cursor
+cursor.x86_64                                        3.14.7-1785396378.el8                      cursor
 cxl-libs.x86_64                                      85-1.fc44                                  updates
 cyrus-sasl-gssapi.x86_64                             2.1.28-35.fc44                             <inconnu>
 cyrus-sasl-lib.x86_64                                2.1.28-35.fc44                             <inconnu>
@@ -544,9 +544,9 @@ dnsmasq-langpack.noarch                              2.92rel2-9.fc44            
 docbook-dtds.noarch                                  1.0-91.fc44                                <inconnu>
 docbook-style-xsl.noarch                             1.79.2-27.fc44                             <inconnu>
 docker-buildx-plugin.x86_64                          0.36.0-1.fc44                              docker-ce-stable
-docker-ce.x86_64                                     3:29.6.2-1.fc44                            docker-ce-stable
-docker-ce-cli.x86_64                                 1:29.6.2-1.fc44                            docker-ce-stable
-docker-ce-rootless-extras.x86_64                     29.6.2-1.fc44                              docker-ce-stable
+docker-ce.x86_64                                     3:29.7.1-1.fc44                            docker-ce-stable
+docker-ce-cli.x86_64                                 1:29.7.1-1.fc44                            docker-ce-stable
+docker-ce-rootless-extras.x86_64                     29.7.1-1.fc44                              docker-ce-stable
 docker-compose-plugin.x86_64                         5.3.1-1.fc44                               docker-ce-stable
 dolphin.x86_64                                       26.04.3-1.fc44                             updates
 dolphin-libs.x86_64                                  26.04.3-1.fc44                             updates
@@ -577,7 +577,7 @@ efi-filesystem.noarch                                6-6.fc44                   
 efi-srpm-macros.noarch                               6-6.fc44                                   <inconnu>
 efibootmgr.x86_64                                    18-11.fc44                                 <inconnu>
 efivar-libs.x86_64                                   39-12.fc44                                 <inconnu>
-eim-cli.x86_64                                       0.17.1-1                                   eim
+eim-cli.x86_64                                       0.17.3-1                                   eim
 electronics-menu.noarch                              1.0-38.fc44                                <inconnu>
 elementary-icon-theme.noarch                         8.1.0-4.fc44                               fedora
 elementary-xfce-icon-theme.noarch                    0.22-2.fc44                                fedora
@@ -592,7 +592,7 @@ elisa-player.x86_64                                  26.04.3-1.fc44             
 emacs-filesystem.x86_64                              1:30.2-2.fc44                              <inconnu>
 enblend.x86_64                                       4.2-35.fc44                                fedora
 enchant.x86_64                                       1:1.6.0-41.fc44                            fedora
-enchant2.x86_64                                      2.8.18-1.fc44                              updates
+enchant2.x86_64                                      2.8.19-2.fc44                              updates
 epiphany-runtime.x86_64                              1:50.4-1.fc44                              <inconnu>
 erlang-srpm-macros.noarch                            0.3.11-1.fc44                              fedora
 espeak-ng.x86_64                                     1.52.0-3.fc44                              <inconnu>
@@ -626,6 +626,7 @@ faad2-libs.x86_64                                    1:2.11.2-6.fc44            
 farstream02.x86_64                                   0.2.9-20.fc44                              fedora
 fastfetch.x86_64                                     2.66.0-1.fc44                              updates
 fatresize.x86_64                                     1.1.0-20.20221116gitab78c48.fc44           fedora
+fd-find.x86_64                                       10.4.2-4.fc44                              updates
 fdk-aac-free.x86_64                                  2.0.3-2.fc44                               <inconnu>
 fedora-appstream-metadata.noarch                     20260515-1.fc44                            updates
 fedora-bookmarks.noarch                              28-36.fc44                                 <inconnu>
@@ -711,7 +712,7 @@ fuse.x86_64                                          2.9.9-25.fc44              
 fuse-common.x86_64                                   3.18.2-1.fc44                              <inconnu>
 fuse-encfs.x86_64                                    1.9.5-28.fc44                              fedora
 fuse-libs.x86_64                                     2.9.9-25.fc44                              <inconnu>
-fuse-overlayfs.x86_64                                1.16-2.fc44                                <inconnu>
+fuse-overlayfs.x86_64                                1.17-1.fc44                                updates
 fuse-sshfs.x86_64                                    3.7.6-1.fc44                               updates
 fuse3.x86_64                                         3.18.2-1.fc44                              <inconnu>
 fuse3-libs.x86_64                                    3.18.2-1.fc44                              <inconnu>
@@ -762,7 +763,7 @@ gettext.x86_64                                       0.26-5.fc44                
 gettext-envsubst.x86_64                              0.26-5.fc44                                updates
 gettext-libs.x86_64                                  0.26-5.fc44                                updates
 gettext-runtime.x86_64                               0.26-5.fc44                                updates
-gh.x86_64                                            2.96.0-1                                   gh-cli
+gh.x86_64                                            2.97.0-1                                   gh-cli
 ghc-srpm-macros.noarch                               1.10-1.fc44                                <inconnu>
 ghostscript.x86_64                                   10.06.0-2.fc44                             <inconnu>
 ghostscript-tools-fontutils.noarch                   10.06.0-2.fc44                             <inconnu>
@@ -829,7 +830,7 @@ gnome-disk-utility.x86_64                            46.1-4.fc44                
 gnome-epub-thumbnailer.x86_64                        1.8-4.fc44                                 <inconnu>
 gnome-font-viewer.x86_64                             50.0-1.fc44                                <inconnu>
 gnome-icon-theme.noarch                              3.12.0-27.fc44                             fedora
-gnome-initial-setup.x86_64                           50.0-4.fc44                                updates
+gnome-initial-setup.x86_64                           50.0-5.fc44                                updates
 gnome-keyring.x86_64                                 50.0-1.fc44                                <inconnu>
 gnome-keyring-pam.x86_64                             50.0-1.fc44                                <inconnu>
 gnome-logs.x86_64                                    50.0-1.fc44                                <inconnu>
@@ -1062,6 +1063,9 @@ harfbuzz-vector.x86_64                               14.1.0-2.fc44              
 hddtemp.x86_64                                       0.3-0.60.beta15.fc44                       <inconnu>
 hdf-libs.x86_64                                      4.3.0-5.fc44                               <inconnu>
 hdf5.x86_64                                          1.14.6-7.fc44                              <inconnu>
+helix.x86_64                                         25.07.1-11.fc44                            updates
+helix-parsers.x86_64                                 25.07.1-11.fc44                            updates
+helix-themes.x86_64                                  25.07.1-11.fc44                            updates
 hermes-desktop.x86_64                                0.7.0-1                                    @commandline
 hfsplus-tools.x86_64                                 540.1.linux3-36.fc44                       <inconnu>
 hfsutils.x86_64                                      3.2.6-53.fc42                              fedora
@@ -1422,7 +1426,7 @@ kf6-threadweaver.x86_64                              6.28.0-1.fc44              
 kfind.x86_64                                         26.04.3-1.fc44                             updates
 kglobalacceld.x86_64                                 6.7.3-1.fc44                               updates
 khelpcenter.x86_64                                   1:26.04.3-1.fc44                           updates
-kicad.x86_64                                         1:10.0.4-1.fc44                            updates
+kicad.x86_64                                         1:10.0.5-1.fc44                            updates
 kidentitymanagement.x86_64                           26.04.3-1.fc44                             updates
 kimageannotator-common.x86_64                        0.7.0-8.fc44                               fedora
 kimageannotator-qt6.x86_64                           0.7.0-8.fc44                               fedora
@@ -1878,7 +1882,7 @@ libmwaw.x86_64                                       0.3.22-8.fc44              
 libmypaint.x86_64                                    1.6.1-16.fc44                              <inconnu>
 libmysofa.x86_64                                     1.3.3-4.fc44                               <inconnu>
 libnatpmp.x86_64                                     20230423-9.fc44                            fedora
-libnbd.x86_64                                        1.25.6-3.fc44                              updates
+libnbd.x86_64                                        1.25.7-1.fc44                              updates
 libndp.x86_64                                        1.9-5.fc44                                 <inconnu>
 libnet.x86_64                                        1.3-7.fc44                                 <inconnu>
 libnetapi.x86_64                                     2:4.24.4-1.fc44                            updates
@@ -2205,8 +2209,8 @@ linux-firmware.noarch                                20260622-1.fc44            
 linux-firmware-whence.noarch                         20260622-1.fc44                            updates
 livesys-scripts.noarch                               0.9.6-1.fc44                               <inconnu>
 lksctp-tools.x86_64                                  1.0.21-3.fc44                              <inconnu>
-llama-cpp.x86_64                                     b10186-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
-llama-cpp-libs.x86_64                                b10186-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
+llama-cpp.x86_64                                     b10217-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
+llama-cpp-libs.x86_64                                b10217-1.fc44                              copr:copr.fedorainfracloud.org:sneed:llama-cpp-vulkan
 llhttp.x86_64                                        9.3.1-1.fc44                               <inconnu>
 llvm-filesystem.i686                                 22.1.8-4.fc44                              updates
 llvm-filesystem.x86_64                               22.1.8-4.fc44                              updates
@@ -2224,6 +2228,7 @@ lpcnetfreedv.x86_64                                  0.5-10.fc44                
 lpsolve.x86_64                                       5.5.2.14-2.fc44                            <inconnu>
 lrzsz.x86_64                                         0.12.20-76.fc44                            <inconnu>
 lsb_release.noarch                                   3.3-8.fc44                                 fedora
+lsd.x86_64                                           1.2.0-4.fc44                               fedora
 lsof.x86_64                                          4.98.0-9.fc44                              <inconnu>
 lsscsi.x86_64                                        0.32-15.fc44                               <inconnu>
 lttng-ust.x86_64                                     2.14.0-5.fc44                              <inconnu>
@@ -2324,7 +2329,7 @@ mesa-vulkan-drivers.x86_64                           26.1.5-1.fc44              
 messagelib.x86_64                                    26.04.3-1.fc44                             updates
 micro.x86_64                                         2.0.15-1.fc44                              fedora
 microcode_ctl.x86_64                                 2:2.1-74.fc44                              <inconnu>
-microsoft-edge-stable.x86_64                         150.0.4078.105-1                           microsoft-edge
+microsoft-edge-stable.x86_64                         151.0.4129.59-1                            microsoft-edge
 mimetreeparser.x86_64                                26.04.3-1.fc44                             updates
 mingw-binutils-generic.x86_64                        2.46.0-1.fc44                              <inconnu>
 mingw-filesystem-base.noarch                         151-1.fc44                                 <inconnu>
@@ -2436,7 +2441,7 @@ nodejs-docs.noarch                                   2:24.18.1-1nodesource      
 nodejs-libs.x86_64                                   1:22.22.2-2.fc43                           updates
 nomarch.x86_64                                       1.4-36.fc44                                <inconnu>
 npth.x86_64                                          1.8-4.fc44                                 <inconnu>
-nsolid.x86_64                                        24.18.0-ns6.3.3                            nodesource-nsolid
+nsolid.x86_64                                        24.18.1-ns6.3.4                            nodesource-nsolid
 nspr.x86_64                                          4.39.0-2.fc44                              updates
 nss.x86_64                                           3.125.0-1.fc44                             updates
 nss-mdns.x86_64                                      0.15.1-28.fc44                             <inconnu>
@@ -2559,10 +2564,10 @@ paps.x86_64                                          0.8.0-15.fc44              
 parole.x86_64                                        4.18.2-5.fc44                              fedora
 parquet-libs.x86_64                                  23.0.1-1.fc44                              <inconnu>
 parted.x86_64                                        3.6-14.fc44                                <inconnu>
-passim.x86_64                                        0.1.11-1.fc44                              <inconnu>
-passim-libs.x86_64                                   0.1.11-1.fc44                              <inconnu>
-passt.x86_64                                         0^20260716.g090d739-2.fc44                 updates
-passt-selinux.noarch                                 0^20260716.g090d739-2.fc44                 updates
+passim.x86_64                                        0.1.12-1.fc44                              updates
+passim-libs.x86_64                                   0.1.12-1.fc44                              updates
+passt.x86_64                                         0^20260728.gf8df3f1-2.fc44                 updates
+passt-selinux.noarch                                 0^20260728.gf8df3f1-2.fc44                 updates
 passwdqc.x86_64                                      2.0.3-9.fc44                               <inconnu>
 passwdqc-utils.x86_64                                2.0.3-9.fc44                               <inconnu>
 patch.x86_64                                         2.8-4.fc44                                 fedora
@@ -2676,12 +2681,12 @@ perl-HTTP-Cookies.noarch                             6.11-7.fc44                
 perl-HTTP-Date.noarch                                6.08-1.fc44                                updates
 perl-HTTP-Message.noarch                             7.03-1.fc44                                updates
 perl-HTTP-Negotiate.noarch                           6.01-42.fc44                               <inconnu>
-perl-HTTP-Tiny.noarch                                0.094-1.fc44                               updates
+perl-HTTP-Tiny.noarch                                0.096-1.fc44                               updates
 perl-Hash-Util-FieldHash.x86_64                      1.27-524.fc44                              <inconnu>
 perl-I18N-LangTags.noarch                            0.45-524.fc44                              <inconnu>
 perl-I18N-Langinfo.x86_64                            0.24-524.fc44                              <inconnu>
 perl-IO.x86_64                                       1.55-524.fc44                              <inconnu>
-perl-IO-Compress.noarch                              2.221-1.fc44                               updates
+perl-IO-Compress.noarch                              2.223-1.fc44                               updates
 perl-IO-Compress-Brotli.x86_64                       0.019000-5.fc44                            <inconnu>
 perl-IO-Compress-Lzma.noarch                         2.217-1.fc44                               fedora
 perl-IO-HTML.noarch                                  1.004-16.fc44                              <inconnu>
@@ -3052,7 +3057,7 @@ python3-arrow.noarch                                 1.4.0-1.fc44               
 python3-asttokens.noarch                             3.0.1-1.fc44                               <inconnu>
 python3-async-lru.noarch                             2.1.0-1.fc44                               <inconnu>
 python3-attrs.noarch                                 25.4.0-2.fc44                              <inconnu>
-python3-audit.x86_64                                 4.1.4-1.fc44                               <inconnu>
+python3-audit.x86_64                                 4.2.1-1.fc44                               updates
 python3-augeas.x86_64                                1.2.0-7.fc44                               <inconnu>
 python3-babel.noarch                                 2.18.0-1.fc44                              <inconnu>
 python3-beaker.noarch                                1.12.1-14.fc44                             <inconnu>
@@ -3259,8 +3264,8 @@ python3-pure-eval.noarch                             0.2.3-7.fc44               
 python3-pwquality.x86_64                             1.4.5-15.fc44                              <inconnu>
 python3-pyOpenSSL.noarch                             26.2.0-1.fc44                              updates
 python3-pyarrow.x86_64                               23.0.1-1.fc44                              <inconnu>
-python3-pyasn1.noarch                                0.6.2-1.fc44                               <inconnu>
-python3-pyasn1-modules.noarch                        0.6.2-1.fc44                               <inconnu>
+python3-pyasn1.noarch                                0.6.4-1.fc44                               updates
+python3-pyasn1-modules.noarch                        0.6.4-1.fc44                               updates
 python3-pyatspi.noarch                               2.58.2-1.fc44                              <inconnu>
 python3-pyaudio.x86_64                               0.2.13-11.fc44                             <inconnu>
 python3-pycares.x86_64                               5.0.1-2.fc44                               <inconnu>
@@ -3339,7 +3344,7 @@ python3-terminado.noarch                             0.18.1-9.fc44              
 python3-tinycss2.noarch                              1.5.1-2.fc44                               <inconnu>
 python3-tkinter.x86_64                               3.14.6-1.fc44                              updates
 python3-tornado.x86_64                               6.5.7-1.fc44                               updates
-python3-tqdm.noarch                                  4.68.4-2.fc44                              updates
+python3-tqdm.noarch                                  4.69.0-2.fc44                              updates
 python3-tracer.noarch                                1.4-2.fc44                                 <inconnu>
 python3-traitlets.noarch                             5.14.3-9.fc44                              <inconnu>
 python3-typing-extensions.noarch                     4.15.0-3.fc44                              <inconnu>
@@ -3364,9 +3369,9 @@ python3-xlrd.noarch                                  2.0.1-27.fc44              
 python3-xlsxwriter.noarch                            3.2.9-2.fc44                               <inconnu>
 python3-yarl.x86_64                                  1.22.0-2.fc44                              <inconnu>
 python3-zstandard.x86_64                             0.25.0-2.fc44                              <inconnu>
-python3.12.x86_64                                    3.12.13-3.fc44                             updates
-python3.12-libs.x86_64                               3.12.13-3.fc44                             updates
-python3.12-tkinter.x86_64                            3.12.13-3.fc44                             updates
+python3.12.x86_64                                    3.12.13-6.fc44                             updates
+python3.12-libs.x86_64                               3.12.13-6.fc44                             updates
+python3.12-tkinter.x86_64                            3.12.13-6.fc44                             updates
 q4wine.x86_64                                        1.4.1-3.fc44                               <inconnu>
 qaccessibilityclient-qt6.x86_64                      0.6.0-5.fc44                               fedora
 qadwaitadecorations-qt5.x86_64                       0.1.7-3.fc44                               <inconnu>
@@ -3521,6 +3526,7 @@ redland.x86_64                                       1.0.17-41.fc44             
 reproc.x86_64                                        14.2.4-7.20230609git1c07bdb.fc44           fedora
 resource-agents.x86_64                               4.18.0-1.fc44                              updates
 rest.x86_64                                          0.10.2-5.fc44                              <inconnu>
+resvg.x86_64                                         0.47.0-1.fc44                              copr:copr.fedorainfracloud.org:lihaohong:yazi
 rhash.x86_64                                         1.4.5-4.fc44                               <inconnu>
 rhsm-icons.noarch                                    14.1-1.fc44                                <inconnu>
 rhythmbox.x86_64                                     3.4.9-2.fc44                               <inconnu>
@@ -3769,9 +3775,9 @@ teamd.x86_64                                         1.32-13.fc44               
 tecla.x86_64                                         50.0-1.fc44                                <inconnu>
 terminator.noarch                                    2.1.5-4.fc44                               <inconnu>
 terraform.x86_64                                     1.15.8-1                                   hashicorp
-tesseract-common.noarch                              5.5.2-1.fc44                               <inconnu>
+tesseract-common.noarch                              5.5.3-1.fc44                               updates
 tesseract-langpack-eng.noarch                        4.1.0-12.fc44                              <inconnu>
-tesseract-libs.x86_64                                5.5.2-1.fc44                               <inconnu>
+tesseract-libs.x86_64                                5.5.3-1.fc44                               updates
 tesseract-tessdata-doc.noarch                        4.1.0-12.fc44                              <inconnu>
 tex-preview.noarch                                   14.1.2-1.fc44                              updates
 texlive-algorithms.noarch                            12:svn78101-2.fc44                         updates
@@ -4082,7 +4088,7 @@ vulkan-loader.x86_64                                 1.4.341.0-1.fc44           
 vulkan-loader-devel.x86_64                           1.4.341.0-1.fc44                           fedora
 vulkan-tools.x86_64                                  1.4.341.0-1.fc44                           <inconnu>
 w3m.x86_64                                           0.5.3-67.git20230121.fc44                  fedora
-warp-terminal.x86_64                                 v0.2026.07.22.09.01.stable_01-1            warpdotdev
+warp-terminal.x86_64                                 v0.2026.07.29.09.05.stable_02-1            warpdotdev
 waterfox.x86_64                                      6.6.17-1.fc44                              copr:copr.fedorainfracloud.org:deltacopy:waterfox
 wavpack.x86_64                                       5.9.0-2.fc44                               <inconnu>
 wcurl.noarch                                         2026.01.05-2.fc44                          <inconnu>
@@ -4096,7 +4102,10 @@ weston-libs-backend-rdp.x86_64                       15.0.1-2.fc44              
 weston-libs-backend-vnc.x86_64                       15.0.1-2.fc44                              updates
 weston-libs-plugin-pipewire.x86_64                   15.0.1-2.fc44                              updates
 weston-libs-plugin-remoting.x86_64                   15.0.1-2.fc44                              updates
-wezterm.x86_64                                       20240203_110809_5046fc22-1.fedora39        @commandline
+wezterm.x86_64                                       20260731_083216_d69264df-0                 copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly
+wezterm-common.x86_64                                20260731_083216_d69264df-0                 copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly
+wezterm-gui.x86_64                                   20260731_083216_d69264df-0                 copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly
+wezterm-mux-server.x86_64                            20260731_083216_d69264df-0                 copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly
 wget2.x86_64                                         2.2.1-2.fc44                               <inconnu>
 wget2-libs.x86_64                                    2.2.1-2.fc44                               <inconnu>
 wget2-wget.x86_64                                    2.2.1-2.fc44                               <inconnu>
@@ -4232,6 +4241,7 @@ xz-lzma-compat.x86_64                                1:5.8.2-2.fc44             
 yad.x86_64                                           9.3-14.fc44                                fedora
 yajl.x86_64                                          2.1.0-40.fc44                              <inconnu>
 yaml-cpp.x86_64                                      0.8.0-5.fc44                               fedora
+yazi.x86_64                                          26.5.6-1.fc44                              copr:copr.fedorainfracloud.org:lihaohong:yazi
 yelp.x86_64                                          2:49.1-1.fc44                              updates
 yelp-libs.x86_64                                     2:49.1-1.fc44                              updates
 yelp-xsl.noarch                                      49.0-2.fc44                                <inconnu>

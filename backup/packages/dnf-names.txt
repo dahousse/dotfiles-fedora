@@ -569,6 +569,7 @@ faad2-libs
 farstream02
 fastfetch
 fatresize
+fd-find
 fdk-aac-free
 fedora-appstream-metadata
 fedora-bookmarks
@@ -1003,6 +1004,9 @@ harfbuzz-vector
 hddtemp
 hdf5
 hdf-libs
+helix
+helix-parsers
+helix-themes
 hermes-desktop
 hfsplus-tools
 hfsutils
@@ -2128,6 +2132,7 @@ lpcnetfreedv
 lpsolve
 lrzsz
 lsb_release
+lsd
 lsof
 lsscsi
 lttng-ust
@@ -3454,6 +3459,7 @@ redland
 reproc
 resource-agents
 rest
+resvg
 rhash
 rhsm-icons
 rhythmbox
@@ -4032,6 +4038,9 @@ weston-libs-backend-vnc
 weston-libs-plugin-pipewire
 weston-libs-plugin-remoting
 wezterm
+wezterm-common
+wezterm-gui
+wezterm-mux-server
 wget2
 wget2-libs
 wget2-wget
@@ -4165,6 +4174,7 @@ xz-lzma-compat
 yad
 yajl
 yaml-cpp
+yazi
 yelp
 yelp-libs
 yelp-xsl

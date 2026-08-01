@@ -249,7 +249,7 @@ pwquality==1.4.5
 py-cpuinfo==9.0.0
 pyarrow==23.0.1
 pyasn1==0.6.3
-pyasn1_modules==0.4.1
+pyasn1_modules==0.4.2
 PyAudio==0.2.13
 pycairo==1.28.0
 pycares==5.0.1
@@ -365,7 +365,7 @@ textual==8.2.6
 tinycss2==1.5.1
 tld==0.13.2
 tornado==6.5.7
-tqdm==4.68.4
+tqdm==4.69.0
 trafilatura==2.0.0
 traitlets==5.14.3
 typing_extensions==4.15.0

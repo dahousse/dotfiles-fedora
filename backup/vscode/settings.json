@@ -638,6 +638,5 @@
     "chat.disableAIFeatures": true,
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    },
-    "workbench.sideBar.location": "right"
+    }
 }
