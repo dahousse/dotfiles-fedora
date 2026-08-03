@@ -20,6 +20,9 @@ arrow==1.4.0
 asttokens==3.0.1
 async-lru==2.1.0
 attrs==25.4.0
+azure-core==1.38.0
+azure-storage-blob==12.30.0
+b2sdk==1.21.0
 babel==2.18.0
 backoff==2.2.1
 bcrypt==5.0.0
@@ -49,7 +52,7 @@ charset-normalizer==3.4.4
 click==8.3.1
 click-default-group==1.2.4
 cloudpickle==3.1.2
-cockpit==364
+cockpit==365
 comm==0.2.3
 conda==25.11.1
 conda-libmamba-solver==25.11.0
@@ -70,6 +73,7 @@ dasbus==1.7
 dateparser==1.4.0
 dbus_next==0.2.3
 dbus-python==1.4.0
+debtcollector==3.0.0
 decorator==5.3.0
 defusedxml==0.7.1
 distlib==0.4.0
@@ -77,11 +81,14 @@ distro==1.9.0
 dnf==4.24.0
 dnspython==2.8.0
 docstring_parser==0.18.0
+dropbox==12.1.0
 duckduckgo_search==8.1.1
+duplicity==3.0.7
 email-validator==2.3.0
 et_xmlfile==2.0.0
 executing==2.2.1
 fastapi==0.136.3
+fasteners==0.20
 fastjsonschema==2.21.2
 fedora-third-party==0.10
 file-magic==0.4.0
@@ -136,9 +143,15 @@ ipykernel==6.29.3
 ipython==9.14.1
 ipython_pygments_lexers==1.1.1
 iso639==0.1.4
+iso8601==2.1.0
+isodate==0.7.2
 isoduration==20.11.0
 itsdangerous==2.2.0
+jaraco.classes==3.4.0
+jaraco.context==6.1.0
+jaraco.functools==4.3.0
 jedi==0.19.2
+jeepney==0.9.0
 Jinja2==3.1.6
 jiter==0.15.0
 jmespath==1.0.1
@@ -157,6 +170,8 @@ jupyterlab==4.5.3
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.28.0
 jusText==3.0.2
+keyring==25.7.0
+keystoneauth1==5.8.0
 kiwisolver==1.5.0
 langtable==0.0.71
 lib389==3.2.2
@@ -170,6 +185,7 @@ linkify-it-py==2.1.0
 llm==0.31
 llm-ollama==0.16.1
 lmstudio==1.5.0
+logfury==1.0.1
 louis==3.33.0
 lxml==6.1.1
 lxml_html_clean==0.4.5
@@ -186,6 +202,7 @@ mdurl==0.1.2
 menuinst==2.3.1
 mercurial==7.2.3
 mistune==3.2.1
+more-itertools==10.8.0
 msgpack==1.1.2
 msgspec==0.20.0
 multidict==6.6.4
@@ -194,6 +211,7 @@ nbconvert==7.16.4
 nbformat==5.10.4
 ndindex==1.10.0
 nest_asyncio==1.6.0
+netaddr==1.3.0
 netifaces==0.11.0
 nftables==0.1
 nodeenv==1.10.0
@@ -208,14 +226,21 @@ ollama==0.6.1
 openai==2.41.1
 openpyxl==3.1.5
 orjson==3.11.9
+os-service-types==1.7.0
 osbuild==185
+oslo.config==9.6.0
+oslo.i18n==6.7.1
+oslo.serialization==5.5.0
+oslo.utils==7.3.0
 packaging==25.0
 pandas==2.3.3
 pandocfilters==1.5.1
+paramiko==3.5.1
 parso==0.8.5
 Paste==3.10.1
 pathvalidate==3.3.1
 patool==4.0.2
+pbr==7.0.3
 pcs==0.12.2
 pefile==2024.8.26
 pexpect==4.9.0
@@ -227,6 +252,7 @@ pipx==1.15.0
 platformdirs==4.9.1
 playwright==1.60.0
 pluggy==1.6.0
+ply==3.11
 podman-compose==1.6.0
 polib==1.2.0
 pooch==1.9.0
@@ -273,6 +299,7 @@ pyinstrument==5.1.2
 PyJWT==2.12.1
 pykickstart==3.69
 PyMySQL==1.1.2
+PyNaCl==1.6.2
 pynvim==0.6.0
 pyOpenSSL==26.2.0
 pyotp==2.9.0
@@ -295,11 +322,13 @@ python-docx==1.2.0
 python-dotenv==1.2.1
 python-gettext==4.0
 python-json-logger==4.0.0
+python-keystoneclient==5.5.0
 python-ldap==3.4.7
 python-manatools==0.99.2
 python-meh==0.52
 python-multipart==0.0.32
 python-pam==2.0.2
+python-swiftclient==4.6.0
 python-ulid==3.1.0
 pytz==2026.1
 pytzdata==2020.1
@@ -319,6 +348,7 @@ requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 resolvelib==1.0.1
 rfc3339_validator==0.1.4
+rfc3986==2.0.0
 rfc3986_validator==0.1.1
 rich==14.3.1
 rpds-py==0.29.0
@@ -331,6 +361,7 @@ s3transfer==0.19.1
 scipy==1.16.2
 scour==0.38.2
 screeninfo==0.8.1
+SecretStorage==3.5.0
 selinux==3.10
 Send2Trash==1.8.3
 sentry-sdk==2.48.0
@@ -354,6 +385,8 @@ sse-starlette==3.4.4
 ssh-audit==3.3.0
 stack_data==0.6.3
 starlette==0.52.1
+stevedore==5.3.0
+stone==3.2.1
 subscription-manager==1.30.5
 systemd-python==235
 tables==3.10.2
@@ -387,6 +420,7 @@ webencodings==0.5.1
 websocket-client==1.8.0
 websockets==16.0
 Werkzeug==3.1.8
+wrapt==2.2.2
 wsproto==1.3.2
 wxPython==4.2.4
 xarray==2026.2.0

@@ -447,6 +447,7 @@ default-fonts-vi
 default-fonts-xh
 default-fonts-yi
 default-fonts-zu
+deja-dup
 dejavu-sans-fonts
 dejavu-sans-mono-fonts
 deltarpm
@@ -508,6 +509,7 @@ dracut-network
 dracut-squash
 dragon
 duktape
+duplicity
 dvd+rw-tools
 dwz
 e2fsprogs
@@ -1449,6 +1451,7 @@ layer-shell-qt
 lbzip2
 lcms2
 ldns
+lemonade-server
 lensfun
 leptonica
 less
@@ -1693,6 +1696,7 @@ libkexiv2-qt5
 libkexiv2-qt6
 libkgapi
 libkleo
+libklvanc
 libkmahjongg
 libkmahjongg-data
 libkml
@@ -1894,6 +1898,7 @@ libreswan-minimal
 librevenge
 librist
 librsvg2
+librsync
 librttopo
 libsamplerate
 libsane-airscan
@@ -2035,6 +2040,7 @@ libwayland-egl
 libwayland-server
 libwbclient
 libwebp
+libwebsockets
 libwinpr
 libwmf
 libwmf-lite
@@ -2296,6 +2302,7 @@ nbdkit-curl-plugin
 nbdkit-selinux
 nbdkit-server
 nbdkit-ssh-plugin
+ncftp
 ncompress
 ncurses
 ncurses-base
@@ -2984,7 +2991,11 @@ python3-async-lru
 python3-attrs
 python3-audit
 python3-augeas
+python3-azure-core
+python3-azure-storage-blob
+python3-b2sdk
 python3-babel
+python3-bcrypt
 python3-beaker
 python3-beautifulsoup4
 python3-bleach
@@ -3025,6 +3036,7 @@ python3-dasbus
 python3-dateutil
 python3-dbus
 python3-dbus-next
+python3-debtcollector
 python3-decorator
 python3-defusedxml
 python3-devel
@@ -3035,11 +3047,13 @@ python3-dnf-plugins-core
 python3-dns
 python3-dotenv
 python3-dotenv+cli
+python3-dropbox
 python3-email-validator
 python3-enchant
 python3-et_xmlfile
 python3-executing
 python3-fastapi
+python3-fasteners
 python3-fastjsonschema
 python3-filelock
 python3-file-magic
@@ -3054,9 +3068,11 @@ python3-gcsfs
 python3-gettext
 python3-gobject
 python3-gobject-base
+python3-google-api-client
 python3-google-api-core
 python3-googleapis-common-protos
 python3-google-auth
+python3-google-auth-httplib2
 python3-google-auth-oauthlib
 python3-google-cloud-core
 python3-google-cloud-storage
@@ -3068,6 +3084,7 @@ python3-hawkey
 python3-html2text
 python3-html5lib
 python3-httpcore
+python3-httplib2
 python3-httpx
 python3-humanize
 python3-ibus
@@ -3080,8 +3097,14 @@ python3-ipykernel
 python3-ipython
 python3-ipython-pygments-lexers
 python3-iso639
+python3-iso8601
+python3-isodate
 python3-isoduration
+python3-jaraco-classes
+python3-jaraco-context
+python3-jaraco-functools
 python3-jedi
+python3-jeepney
 python3-jinja2
 python3-jmespath
 python3-json5
@@ -3099,6 +3122,10 @@ python3-jupyterlab-server
 python3-jupyter-lsp
 python3-jupyter-server
 python3-jupyter-server-terminals
+python3-keyring
+python3-keyring+completion
+python3-keystoneauth1
+python3-keystoneclient
 python3-kickstart
 python3-kiwisolver
 python3-langtable
@@ -3117,6 +3144,7 @@ python3-libsemanage
 python3-libvirt
 python3-libxml2
 python3-license-expression
+python3-logfury
 python3-louis
 python3-lxml
 python3-mako
@@ -3135,6 +3163,7 @@ python3-meh
 python3-meh-gui
 python3-menuinst
 python3-mistune
+python3-more-itertools
 python3-msgpack
 python3-multidict
 python3-nbclient
@@ -3143,6 +3172,7 @@ python3-nbformat
 python3-ndindex
 python3-neovim
 python3-nest-asyncio
+python3-netaddr
 python3-netifaces
 python3-newt
 python3-nftables
@@ -3157,15 +3187,22 @@ python3-olefile
 python3-openpyxl
 python3-orjson
 python3-osbuild
+python3-oslo-config
+python3-oslo-i18n
+python3-oslo-serialization
+python3-oslo-utils
+python3-os-service-types
 python3-packaging
 python3-pam
 python3-pandas
 python3-pandocfilters
+python3-paramiko
 python3-parso
 python3-paste
 python3-pathvalidate
 python3-patool
 python3-patool+argcompletion
+python3-pbr
 python3-pefile
 python3-pexpect
 python3-pid
@@ -3174,6 +3211,7 @@ python3-pillow-tk
 python3-pip
 python3-platformdirs
 python3-pluggy
+python3-ply
 python3-polib
 python3-policycoreutils
 python3-pooch
@@ -3203,6 +3241,7 @@ python3-pydantic+email
 python3-pygdbmi
 python3-pygments
 python3-PyMySQL
+python3-pynacl
 python3-pyOpenSSL
 python3-pyparsing
 python3-pyparted
@@ -3234,6 +3273,7 @@ python3-requests+socks
 python3-requests-toolbelt
 python3-resolvelib
 python3-rfc3339-validator
+python3-rfc3986
 python3-rfc3986-validator
 python3-rich
 python3-rpds-py
@@ -3248,6 +3288,7 @@ python3-s3transfer
 python3-satyr
 python3-scipy
 python3-scour
+python3-secretstorage
 python3-send2trash
 python3-sentry-sdk
 python3-setools
@@ -3263,7 +3304,11 @@ python3-speechd
 python3-sqlalchemy
 python3-stack-data
 python3-starlette
+python3-stevedore
+python3-stone
 python3-subscription-manager-rhsm
+python3-swiftclient
+python3-swiftclient+keystone
 python3-systemd
 python3-tables
 python3-tabulate
@@ -3279,6 +3324,7 @@ python3-typing-extensions
 python3-typing-inspection
 python3-unbound
 python3-uri-template
+python3-uritemplate
 python3-urllib3
 python3-urllib3+socks
 python3-userpath
@@ -3290,6 +3336,7 @@ python3-wcwidth
 python3-webcolors
 python3-webencodings
 python3-websocket-client
+python3-wrapt
 python3-wxpython4
 python3-xarray
 python3-xkbregistry
@@ -3298,6 +3345,8 @@ python3-xlsxwriter
 python3-yarl
 python3-zstandard
 python-jupyter-filesystem
+python-oslo-i18n-lang
+python-oslo-utils-lang
 python-pip-wheel
 python-pyqt6-rpm-macros
 python-qt5-rpm-macros
@@ -3448,6 +3497,7 @@ quota-nls
 raptor2
 rasqal
 rav1e-libs
+rclone
 rdma-core-common
 re2
 readline
@@ -3459,6 +3509,7 @@ redland
 reproc
 resource-agents
 rest
+restic
 resvg
 rhash
 rhsm-icons

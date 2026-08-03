@@ -50,6 +50,7 @@ org.beagleboard.imagingutility
 org.freecad.FreeCAD
 org.gaphor.Gaphor
 org.gnome.SoundRecorder
+org.gnome.World.PikaBackup
 org.gnome.gitg
 org.kde.kronometer
 org.localsend.localsend_app
