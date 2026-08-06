@@ -19,6 +19,7 @@ ecmel.vscode-html-css@2.0.14
 emmanuelbeziat.vscode-great-icons@2.1.121
 esbenp.prettier-vscode@12.4.0
 fill-labs.dependi@0.7.26
+firefox-devtools.vscode-firefox-debug@2.15.0
 formulahendry.code-runner@0.12.2
 georgewfraser.vscode-javac@0.2.49
 ggml-org.llama-vscode@0.0.58
@@ -42,7 +43,12 @@ ms-azuretools.vscode-docker@2.0.0
 ms-ceintl.vscode-language-pack-fr@1.131.2026072717
 ms-dotnettools.csharp@2.140.9
 ms-dotnettools.vscode-dotnet-runtime@3.1.0
+ms-edgedevtools.vscode-edge-devtools@2.1.10
 ms-kubernetes-tools.vscode-kubernetes-tools@1.4.1
+ms-mssql.data-workspace-vscode@0.6.3
+ms-mssql.mssql@1.44.1
+ms-mssql.sql-bindings-vscode@0.4.1
+ms-mssql.sql-database-projects-vscode@1.6.2
 ms-python.debugpy@2026.6.0
 ms-python.python@2026.5.2026070801
 ms-python.vscode-pylance@2026.3.1

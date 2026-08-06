@@ -3672,6 +3672,7 @@ sord
 sos
 sound-theme-freedesktop
 soundtouch
+source-foundry-hack-fonts
 source-highlight
 soxr
 spandsp
@@ -3757,6 +3758,7 @@ tbb
 tcl
 tcl8
 tcpdump
+tealdeer
 teamd
 tecla
 terminator

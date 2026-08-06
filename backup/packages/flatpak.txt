@@ -5,6 +5,7 @@ cc.arduino.IDE2
 com.axosoft.GitKraken
 com.belmoussaoui.Authenticator
 com.brave.Browser
+com.cherry_ai.CherryStudio
 com.diy_fever.DIYLayoutCreator
 com.dreamsourcelab.DSView
 com.freerdp.FreeRDP

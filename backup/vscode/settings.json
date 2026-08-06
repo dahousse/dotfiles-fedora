@@ -644,5 +644,11 @@
         "vscode-kubernetes.helm-path-linux": "/home/hasmi/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
         "vscode-kubernetes.minikube-path-linux": "/home/hasmi/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
-    "remote.SSH.useCurlAndWgetConfigurationFiles": true
+    "remote.SSH.useCurlAndWgetConfigurationFiles": true,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ]
 }
